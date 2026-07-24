@@ -1,0 +1,305 @@
+/* ==========================
+   全体
+========================== */
+
+body {
+
+    margin: 0;
+
+    background: #f5f5f5;
+
+    font-family: "Yu Gothic UI", "Meiryo", sans-serif;
+
+    color: #333;
+
+}
+
+
+/* ==========================
+   メイン
+========================== */
+h2{
+
+    margin:5px 0;
+
+}
+
+.container {
+
+    max-width: 900px;
+
+    margin: 15px auto;
+
+    background: white;
+
+    padding: 10px 25px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+
+}
+
+
+/* ==========================
+   タイトル
+========================== */
+header{
+
+    text-align:center;
+
+    margin-bottom:20px;
+
+}
+
+h1 {
+
+    margin-top: 0;
+
+    margin-bottom: 5px;
+
+}
+
+
+.sub-title{
+
+    color:#777;
+
+    margin-bottom:25px;
+
+}
+
+
+/* ==========================
+   ニックネーム
+========================== */
+
+.nickname-area{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    margin-bottom:18px;
+}
+
+.nickname-area label{
+
+    margin:0;
+
+    font-weight:bold;
+
+}
+
+.nickname-area input{
+
+    width:200px;
+
+    padding:6px;
+}
+
+#nickname{
+
+    width:300px;
+
+    font-size:18px;
+
+    padding:8px;
+
+}
+
+
+/* ==========================
+   メニュー
+========================== */
+
+.menu-card{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:2px 15px;
+
+    margin-bottom:3px;
+
+    border:1px solid #ddd;
+
+    border-radius:6px;
+
+    background:white;
+
+}
+
+
+.menu-name{
+
+    font-size:17px;
+
+    font-weight:bold;
+
+}
+
+
+.order-button{
+
+    background:#1976D2;
+
+    color:white;
+
+    border:none;
+
+    border-radius:5px;
+
+    padding:8px 18px;
+
+    cursor:pointer;
+
+    white-space: nowrap;
+
+}
+
+
+.order-button:hover{
+
+    background:#125aa0;
+
+}
+
+
+/* ==========================
+   注文一覧
+========================== */
+
+.order-card{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:2px 15px;
+
+    margin-bottom:3px;
+
+    border:1px solid #ddd;
+
+    border-radius:6px;
+
+    background:#fafafa;
+
+}
+
+
+.order-name{
+
+    font-size:16px;
+
+}
+
+
+.order-count{
+
+    margin-bottom:12px;
+
+    font-weight:bold;
+
+}
+
+
+/* ==========================
+   削除
+========================== */
+
+.delete-button{
+
+    background:#d32f2f;
+
+    color:white;
+
+    border:none;
+
+    border-radius:5px;
+
+    padding:6px 16px;
+
+    cursor:pointer;
+
+}
+
+
+.delete-button:hover{
+
+    background:#a30000;
+
+}
+
+
+/* ==========================
+   区切り
+========================== */
+
+hr{
+
+    margin:10px 0;
+
+}
+
+.group-card{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:20px;
+
+    border:1px solid #ddd;
+
+    border-radius:6px;
+
+    padding:10px;
+
+    margin-bottom:6px;
+
+}
+
+.group-title{
+
+    font-weight:bold;
+
+    width:120px;
+
+}
+
+.group-menu{
+
+    flex:1;
+
+}
+
+.all-order-row{
+
+    display:flex;
+
+    padding:3px 0;
+
+}
+
+.all-order-name{
+
+    width:120px;
+
+    font-weight:bold;
+
+}
+
+.all-order-menu{
+
+    flex:1;
+
+}

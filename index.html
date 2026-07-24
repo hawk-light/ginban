@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>吟ばん ランチ注文予定システム</title>
+
+    <link rel="stylesheet"
+          href="style.css?v=202406105">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>🐟 吟ばん ランチ注文予定</h1>
+    </header>
+
+
+    <div class="nickname-area">
+
+        <label for="nickname">
+            ニックネーム
+        </label>
+
+        <input
+            id="nickname"
+            type="text">
+
+        <span class="nickname-note">
+            ※入力して決定してください
+        </span>
+
+    </div>
+
+
+    <hr>
+
+    <section>
+
+        <h2>メニュー</h2>
+
+        <div id="menu-list">
+
+            <!-- JavaScriptがここへ生成 -->
+
+        </div>
+
+    </section>
+
+    <hr>
+
+    <section>
+
+        <h2>あなたの決定履歴</h2>
+
+        <div id="order-list">
+
+            <p>まだ決定されていません。</p>
+
+        </div>
+        <hr>
+
+        <h2>みんなの決定履歴</h2>
+
+        <div id="all-order-list"></div>
+    </section>
+
+</div>
+
+<script type="module" src="script.js?v=20240611"></script>
+</body>
+
+</html>
