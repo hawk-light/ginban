@@ -249,7 +249,7 @@ function createMenuCards() {
 async function order(menuId) {
 
     if (elements.nicknameInput.value.trim() === "") {
-        alert("ニックネームを入力してください。");
+        alert("名前を入力してください。");
         return;
     }
 
@@ -410,7 +410,7 @@ function renderAllOrders(orders) {
 
     }
 
-    // ニックネームごとにまとめる
+    // 名前ごとにまとめる
     const groups = {};
 
     orders.forEach(order => {
