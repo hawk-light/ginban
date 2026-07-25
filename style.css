@@ -18,7 +18,7 @@ body {
 /* ==========================
    メイン
 ========================== */
-h2{
+h2,h3 {
 
     margin:5px 0;
 
@@ -78,11 +78,9 @@ h1 {
 
     display:flex;
 
-    align-items:center;
+    align-items:flex-start;
 
     gap:10px;
-
-    margin-bottom:18px;
 }
 
 .nickname-area label{
@@ -100,9 +98,12 @@ h1 {
     padding:6px;
 }
 
+.nickname-area label {
+    margin-top: 8px;
+}
 #nickname{
 
-    width:300px;
+    width:250px;
 
     font-size:18px;
 

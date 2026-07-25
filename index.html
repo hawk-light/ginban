@@ -20,24 +20,22 @@
 <div class="container">
 
     <header>
-        <h1>🐟 吟ばん ランチ注文予定</h1>
+        <h2>🐟 吟ばん ランチ注文予定</h2>
     </header>
 
 
     <div class="nickname-area">
 
         <label for="nickname">
-            ニックネーム
+            名前
         </label>
+        <div>
+            <input id="nickname" type="text">
 
-        <input
-            id="nickname"
-            type="text">
-
-        <span class="nickname-note">
-            ※入力して決定してください
-        </span>
-
+            <div class="nickname-note">
+                ※名前を入力して決定押してね
+            </div>
+        </div>
     </div>
 
 
@@ -45,7 +43,7 @@
 
     <section>
 
-        <h2>メニュー</h2>
+        <h3>メニュー</h3>
 
         <div id="menu-list">
 
@@ -59,7 +57,7 @@
 
     <section>
 
-        <h2>あなたの決定履歴</h2>
+        <h3>あなたの決定履歴</h3>
 
         <div id="order-list">
 
@@ -68,7 +66,7 @@
         </div>
         <hr>
 
-        <h2>みんなの決定履歴</h2>
+        <h3>みんなの決定履歴</h3>
 
         <div id="all-order-list"></div>
     </section>
