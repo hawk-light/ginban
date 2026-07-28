@@ -379,7 +379,6 @@ async function deleteOrder(orderId) {
 //======================================
 // menu_id → メニュー名
 //======================================
-注文予定
 function getMenuName(menuId) {
 
     const menu =
