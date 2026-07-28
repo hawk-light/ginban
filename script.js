@@ -231,7 +231,7 @@ function createMenuCards() {
                 class="order-button"
                 onclick="order(${menu.id})">
 
-                決定
+                注文予定
 
             </button>
         `;
@@ -271,7 +271,7 @@ function renderCurrentOrders(orders) {
     if (orders.length === 0) {
 
         elements.orderList.innerHTML =
-            "<p>まだ決定されていません。</p>";
+            "<p>まだ注文予定がありません。</p>";
 
         return;
 
@@ -281,7 +281,7 @@ function renderCurrentOrders(orders) {
 
     html += "<div class='order-count'>";
 
-    html += "現在 " + orders.length + " 件決定しています";
+    html += "現在 " + orders.length + " 件注文予定があります";
 
     html += "</div>";
 
@@ -329,7 +329,7 @@ function listenCurrentOrders() {
     if (elements.nicknameInput.value.trim() === "") {
 
         elements.orderList.innerHTML =
-            "<p>まだ決定されていません。</p>";
+            "<p>まだ注文予定がありません。</p>";
 
         return;
     }
@@ -357,7 +357,7 @@ function listenCurrentOrders() {
 //======================================
 async function deleteOrder(orderId) {
 
-    if (!confirm("この決定を削除しますか？")) {
+    if (!confirm("この注文予定を削除しますか？")) {
         return;
     }
 
@@ -379,7 +379,7 @@ async function deleteOrder(orderId) {
 //======================================
 // menu_id → メニュー名
 //======================================
-
+注文予定
 function getMenuName(menuId) {
 
     const menu =
@@ -404,7 +404,7 @@ function renderAllOrders(orders) {
     if (orders.length === 0) {
 
         elements.allOrderList.innerHTML =
-            "<p>まだ決定されていません。</p>";
+            "<p>まだ注文予定がありません。</p>";
 
         return;
 
